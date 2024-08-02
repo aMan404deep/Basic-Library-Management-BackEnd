@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-const username = 'amandeep101003';
-const password = 'aman1001';
+const username = 'YOUR_USERNAME';
+const password = 'YOUR_PASSWORD';
 const url =`mongodb+srv://${username}:${password}@cluster0.rlqapzu.mongodb.net/Library?retryWrites=true&w=majority&appName=Cluster0` ;
 
 const dbConnect = async()=>{ 
